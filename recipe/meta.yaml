@@ -1,12 +1,12 @@
-{% set version = "0.5.4" %}
+{% set version = "0.6.1" %}
 
 package:
   name: ffi-navigator
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/f/ffi-navigator/ffi-navigator-{{ version }}.tar.gz
-  sha256: 9e9bad8421bcf156186654f03840828635999505ffd450c9fecfcfa8394b7a50
+  url: https://pypi.org/packages/source/f/ffi-navigator/ffi_navigator-{{ version }}.tar.gz
+  sha256: 46b4afed44a3e8dade53f33db0cda70fdbd5a19da1e2b78fb2b2b20ce4b5d0e9
 
 build:
   noarch: python
